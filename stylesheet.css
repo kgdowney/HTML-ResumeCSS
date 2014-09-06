@@ -1,0 +1,113 @@
+/*Keith Downey's CSS stylesheet*/
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+	display: -webkit-flex;
+  	display: flex;
+}
+body p {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+#wrapper {
+	display: -webkit-flex: 1;
+    display:flex: 1;
+	position:relative;
+	background-color:#3b5998;
+	width:700px;
+	margin:0 auto;
+	padding: 8px 40px 8px 40px;
+}
+h3 {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	text-align:center;
+	color:#FFFFFF;
+}
+h4 {
+	text-align:left;
+}
+#contact {
+	text-align:center;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 1.2em;
+	margin:auto;
+	color:#FFFFFF;
+
+
+}
+hr.style-three {
+    border: 0;
+    border-bottom: 3px solid #FFFFFF;
+
+}
+a:link {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+a:visited {
+	background-color:#FFFFFF;
+	color:#F2F5FA;
+	padding: 1px;
+}
+a:hover {
+	background-color:#FFFFFF;
+	color:#3b5998;
+	padding: 3px 3px 3px 3px;
+}
+a:active {
+
+}
+
+#summary {
+	position:relative;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	background-color:#ffffff;
+	color:#3b5998;
+	border: 2px solid #3b5998;
+	padding: 3px 3px 3px 5px;
+	width:850px;
+	margin-left:-115px;
+
+
+}
+#tech {
+	position:relative;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	background-color:#ffffff;
+	color:#3b5998;
+	border:2px solid #3b5998;
+	width:850px;
+	padding-bottom:5px;
+	margin-left:-115px;
+
+}
+.experience {
+	position:relative;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	background-color:#ffffff;
+	color:#3b5998;
+	border:2px solid #3b5998;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 7px;
+	width:850px;
+	margin-left:-115px;
+	
+	
+}
+#education {
+	position:relative;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	background-color:#ffffff;
+	color:#3b5998;
+	padding-top:1px;
+	padding-left: 7px;
+	padding-right:1px;
+	padding-bottom:1px;
+	
+}
+
+	
+
